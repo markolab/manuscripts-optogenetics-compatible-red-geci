@@ -16,7 +16,9 @@ Xueling Zhang<sup>1,2</sup>, Brittany R. Addison<sup>1</sup>, Emine Zeynep Uluta
 
 # Notebooks/scripts
 
-1. First, open `notebooks/` to find jupyterlab notebooks corresponding to a figure panel you would like to reproduce.
-2. Next, assuming you have downloaded and unzipped all data from Zenodo, you can run all of the notebooks in `notebooks/panels`.
+1. Clone this directory onto your computer via github.
+2. Second, install the `calcium_imaging` library by navigating to the cloned directory in your terminal emulator and running `pip install -e .`
+3. Third, open `notebooks/` to find jupyterlab notebooks corresponding to a figure panel you would like to reproduce.
+4. Next, assuming you have downloaded and unzipped all data from Zenodo, you can run all of the notebooks in `notebooks/panels`.
 
 <br><br><br>
