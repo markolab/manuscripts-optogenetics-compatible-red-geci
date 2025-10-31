@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools >= 61.0.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "calcium_imaging_analysis"
+requires-python = ">=3.7"
+version = "0.0.1"
+description = "A package for analyzing in vitro calcium imaging experiments"
+dependencies = [
+	"cellpose==2.2.3",
+	"h5py",
+	"markovids @ git+https://github.com/markolab/markovids.git",
+	"matplotlib",
+	"nd2",
+	"numpy",
+	"opencv-python-headless",
+	"openpyxl",
+	"pandas",
+	"pystackreg",
+	"scikit-image",
+	"scipy",
+	"statsmodels",
+	"seaborn",
+	"toml",
+	"tqdm",
+]
